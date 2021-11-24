@@ -1,5 +1,31 @@
 body {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player-picture {
+    width: 100px;
+    height: 100px;
+    margin-right: 32px;
+}
+
+.player-panel {
+    display: flex;
+    font-size: 48px;
+    margin-bottom: 64px;
+}
+
+.player-panel div {
+    display: flex;
+    align-items: center;
+    margin-right: 64px;
+    margin-left: 64px;
+}
+
+.player-inactive {
+    opacity: 0.2;
 }
 
 table {
@@ -7,7 +33,7 @@ table {
 }
 
 tr {
-    width: 399px;
+    width: 999px;
 }
 
 tr:first-child td {
@@ -27,9 +53,9 @@ tr td:last-child {
 }
 
 td {
-    width: 400px;
-    height: 400px;
-    border: 5px solid black;
+    width: 333px;
+    height: 333px;
+    border: 15px solid black;
     position: relative;
     cursor: pointer;
 }
@@ -42,9 +68,9 @@ td:hover {
     position: absolute;
     width: 270px;
     height: 270px;
-    top: 65px;
+    top: 31.5px;
     bottom: 0px;
-    left: 65px;
+    left: 31.5px;
     right: 0px;
 }
 
