@@ -7,22 +7,22 @@ body {
 }
 
 .player-picture {
-    width: 100px;
-    height: 100px;
-    margin-right: 32px;
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
 }
 
 .player-panel {
     display: flex;
-    font-size: 48px;
-    margin-bottom: 64px;
+    font-size: 24px;
+    margin-bottom: 32px;
 }
 
 .player-panel div {
     display: flex;
     align-items: center;
-    margin-right: 64px;
-    margin-left: 64px;
+    margin-right: 32px;
+    margin-left: 32px;
 }
 
 .player-inactive {
@@ -34,7 +34,7 @@ table {
 }
 
 tr {
-    width: 999px;
+    width: 399px;
 }
 
 tr:first-child td {
@@ -54,9 +54,9 @@ tr td:last-child {
 }
 
 td {
-    width: 333px;
-    height: 333px;
-    border: 15px solid black;
+    width: 133px;
+    height: 133px;
+    border: 10px solid black;
     position: relative;
     cursor: pointer;
 }
@@ -67,8 +67,8 @@ td:hover {
 
 .table-picture {
     position: absolute;
-    width: 270px;
-    height: 270px;
+    width: 70px;
+    height: 70px;
     top: 31.5px;
     bottom: 0px;
     left: 31.5px;
@@ -80,8 +80,8 @@ td:hover {
 }
 
 .horizontal-line {
-    height: 25px;
-    width: 980px;
+    height: 10px;
+    width: 380px;
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     transform: scaleX(0.0);
@@ -98,8 +98,8 @@ td:hover {
     border: 1px solid rgba(0, 0, 0, 0.6);
     background-color: rgb(31, 21, 167);
     color: white;
-    height: 200px;
-    Width: 600px;
+    height: 100px;
+    Width: 300px;
     font-size: 64px;
     position: absolute;
     top: 850px;
