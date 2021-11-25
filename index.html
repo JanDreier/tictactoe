@@ -14,16 +14,26 @@
 </head>
 
 <body>
+    <button class="replay-button d-none" id="replay-button" onclick="replay()">Replay</button>
     <div class="player-panel">
         <div>
-            <img class="player-picture " id="player-1" src="./img/circle.png">Player 1
+            <img class="player-picture " id="player-1" src="./img/circle.png"><b>Player 1</b>
         </div>
         <div>
-            <img class="player-picture player-inactive" id="player-2" src="./img/cross.png">Player 2
+            <img class="player-picture player-inactive" id="player-2" src="./img/cross.png"><b>Player 2</b>
         </div>
 
     </div>
 
+
+    <div id="line-1" class="horizontal-line" style="top: 733px;"></div>
+    <div id="line-2" class="horizontal-line" style="top: 1083px;"></div>
+    <div id="line-3" class="horizontal-line" style="top: 1436px;"></div>
+    <div id="line-4" class="horizontal-line make-vertical" style="top: 1083px;"></div>
+    <div id="line-5" class="horizontal-line make-vertical" style="top: 1083px; left:1223px;"></div>
+    <div id="line-6" class="horizontal-line make-vertical" style="top: 1083px; left:525px;"></div>
+    <div id="line-7" class="horizontal-line " style="top: 1083px; left:876px; transform: rotate(45deg) scaleX(0.0)"></div>
+    <div id="line-8" class="horizontal-line " style="top: 1083px; left:873px; transform: rotate(-45deg) scaleX(0.0)"></div>
     <table>
         <tr>
             <td onclick="fillShape(0)">

@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
 }
 
 .player-picture {
@@ -76,4 +77,36 @@ td:hover {
 
 .d-none {
     display: none;
+}
+
+.horizontal-line {
+    height: 25px;
+    width: 980px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    transform: scaleX(0.0);
+    transition: transform 225ms ease-in-out;
+    z-index: 1;
+}
+
+.make-vertical {
+    transform: rotate(90deg) scaleX(0.0);
+    transition: transform 225ms ease-in-out;
+}
+
+.replay-button {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    background-color: rgb(31, 21, 167);
+    color: white;
+    height: 200px;
+    Width: 600px;
+    font-size: 64px;
+    position: absolute;
+    top: 850px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.replay-button:hover {
+    background-color: rgb(27, 12, 241);
 }
